@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CountServer.Lib\CountServer.Lib.csproj" />
     <ProjectReference Include="..\StringCompression.Lib\StringCompression.Lib.csproj" />
   </ItemGroup>
 
