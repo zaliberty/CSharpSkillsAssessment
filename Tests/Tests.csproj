@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CountServer.Lib\CountServer.Lib.csproj" />
+    <ProjectReference Include="..\LogStandardizer.Lib\LogStandardizer.Lib.csproj" />
     <ProjectReference Include="..\StringCompression.Lib\StringCompression.Lib.csproj" />
   </ItemGroup>
 

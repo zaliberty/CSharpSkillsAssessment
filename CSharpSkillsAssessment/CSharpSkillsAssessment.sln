@@ -5,11 +5,15 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSkillsAssessment", "CSharpSkillsAssessment.csproj", "{59FA87C5-130E-41A3-88A1-90ECEF7439F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCompression.Lib", "..\StringCompression.Lib\StringCompression.Lib.csproj", "{140FA27C-C28A-43EF-B4A9-871EF0883DE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringCompression.Lib", "..\StringCompression.Lib\StringCompression.Lib.csproj", "{140FA27C-C28A-43EF-B4A9-871EF0883DE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "..\Tests\Tests.csproj", "{EC095164-1D1A-4831-BBAA-B0F8C9274F0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "..\Tests\Tests.csproj", "{EC095164-1D1A-4831-BBAA-B0F8C9274F0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountServer.Lib", "..\CountServer.Lib\CountServer.Lib.csproj", "{1470E8E0-B62D-4C5D-BF14-291CBA928D7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountServer.Lib", "..\CountServer.Lib\CountServer.Lib.csproj", "{1470E8E0-B62D-4C5D-BF14-291CBA928D7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogStandardizer.Lib", "..\LogStandardizer.Lib\LogStandardizer.Lib.csproj", "{694BC606-2130-4463-B783-CCFDC123E200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogStandardizer", "..\LogStandardizer\LogStandardizer.csproj", "{8CF8A97B-955F-4E2D-85F7-9FF985E26B46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{1470E8E0-B62D-4C5D-BF14-291CBA928D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1470E8E0-B62D-4C5D-BF14-291CBA928D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1470E8E0-B62D-4C5D-BF14-291CBA928D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{694BC606-2130-4463-B783-CCFDC123E200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{694BC606-2130-4463-B783-CCFDC123E200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{694BC606-2130-4463-B783-CCFDC123E200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{694BC606-2130-4463-B783-CCFDC123E200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CF8A97B-955F-4E2D-85F7-9FF985E26B46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CF8A97B-955F-4E2D-85F7-9FF985E26B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CF8A97B-955F-4E2D-85F7-9FF985E26B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CF8A97B-955F-4E2D-85F7-9FF985E26B46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
